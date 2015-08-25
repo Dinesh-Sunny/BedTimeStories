@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Bed Time Stories</string>
+    <string name="action_settings">settings</string>
+
+
+    <string name="story1_title">A LOVELY SUNNY DAY </string>
+    <string name="story1_subTitle">It was a lovely sunny day in Oak Tree Farm.</string>
+    <string name="story2_title">I AM A MOLE  </string>
+    <string name="story2_subTitle">There was once a hole</string>
+    <string name="story3_title">ANOTHER MONDAY MORNING</string>
+    <string name="story3_subTitle">Jeremy hated Monday mornings</string>
+    <string name="story4_title">A LOVELY SUNNY DAY </string>
+    <string name="story4_subTitle">It was a lovely sunny day in Oak Tree Farm.</string>
+    <string name="title_activity_story">StoryActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>
