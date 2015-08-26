@@ -3,22 +3,23 @@ package android.in.teachcoder.app.bedtimestories;
 import android.content.Context;
 import android.in.teachcoder.app.controller.CustomAdapter;
 import android.in.teachcoder.app.model.Story;
+import android.in.teachcoder.app.model.StoryArray;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.AbsListView;
 import android.widget.Toast;
 
-import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements CustomAdapter.ClickListener {
+public class MainActivity extends AppCompatActivity  {
 
-    static List<Story>  stories = new ArrayList<>();
+     StoryArray storyArray;
+    static List<Story> str;
+    Toolbar tb;
 
 
     @Override
@@ -26,14 +27,21 @@ public class MainActivity extends AppCompatActivity implements CustomAdapter.Cli
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        stories.add(new Story("A LOVELY SUNNY DAY", "It was a lovely sunny day in Oak Tree Farm.", "Hello yeah this is story 0"));
-        stories.add(new Story("A LOVELY  DAY", "It was a lovely sunny day in Oak Tree Farm.","Hello yeah this is story 1"));
-        stories.add(new Story("A LOVELY SUNNY ]", "It was a lovely sunny day in Oak Tree Farm.","Hello yeah this is story 2"));
-        stories.add(new Story("A  SUNNY DAY", "It was a lovely sunny day in Oak Tree Farm.","Hello yeah this is story 3"));
+        tb = (Toolbar) findViewById(R.id.toolBar);
+        setSupportActionBar(tb);
+
+        storyArray = new StoryArray();
+         str = storyArray.stories;
+
+
+
+
+
+
 
         RecyclerView rv = (RecyclerView) findViewById(R.id.recyclerView);
         rv.setHasFixedSize(true);
-        rv.setAdapter(new CustomAdapter(this, stories));
+        rv.setAdapter(new CustomAdapter(this, str));
         LinearLayoutManager llm = new LinearLayoutManager(this);
         llm.setOrientation(LinearLayoutManager.VERTICAL);
 
@@ -64,10 +72,6 @@ public class MainActivity extends AppCompatActivity implements CustomAdapter.Cli
         return super.onOptionsItemSelected(item);
     }
 
-    @Override
-    public void onItemClick(View view, int position) {
-
-    }
 
     public static void toatsMessage(Context context, String message){
         Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
