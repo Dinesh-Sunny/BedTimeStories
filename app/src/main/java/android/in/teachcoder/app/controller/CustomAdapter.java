@@ -1,6 +1,7 @@
 package android.in.teachcoder.app.controller;
 
 
+import android.app.ActivityOptions;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Animatable;
@@ -86,6 +87,8 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomView
 
 
 
+
+
         }
 
 
@@ -94,7 +97,11 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomView
             adapterNumber(getAdapterPosition());
             MainActivity.toatsMessage(context, "Item Clicked " + getAdapterPosition());
             Intent storyIntent = new Intent(context,StoryActivity.class);
-            context.startActivity(storyIntent);
+
+            //Transtition between activities
+            Bundle transitition = ActivityOptions.makeCustomAnimation(context,R.anim.slide_in_left,R.anim.slide_out_left).toBundle();
+
+            context.startActivity(storyIntent, transitition);
 
 
         }
