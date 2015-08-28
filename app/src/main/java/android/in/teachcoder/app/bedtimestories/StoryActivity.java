@@ -3,8 +3,10 @@ package android.in.teachcoder.app.bedtimestories;
 import android.content.Intent;
 import android.in.teachcoder.app.controller.CustomAdapter;
 import android.in.teachcoder.app.model.Story;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.text.Spanned;
 import android.view.Menu;
@@ -16,17 +18,29 @@ import org.w3c.dom.Text;
 import java.util.List;
 
 public class StoryActivity extends AppCompatActivity {
-
+    private Story clickedStory;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_story);
+        //get the story object
+        clickedStory =  MainActivity.str.get(CustomAdapter.clickedViewNumber);
+
+        //Toolbar parallax effect support library
+        Toolbar toolbar = (Toolbar) findViewById(R.id.storyActivityToolBar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+        collapsingToolbarLayout.setTitle(clickedStory.title);
+
+        //Toolbar parallax effect support library ends
 
         TextView storyDescription = (TextView) findViewById(R.id.storyTextView);
 //
         MainActivity.toatsMessage(this,Integer.toString(CustomAdapter.clickedViewNumber));
-        Story clickedStory =  MainActivity.str.get(CustomAdapter.clickedViewNumber);
+
         storyDescription.setText(clickedStory.storyDescription);
 
 //        Spanned text = Html.fromHtml("<p style=\"text-align: left\">So they hastily rushed to the <strong>police. </strong> When they arrived they were sent to talk to the team which specialized in combating kidnapping. The team was made up of <strong>Little Red Riding Hood</strong>, the leader who had mental powers, <strong>Cinderella</strong>, who was responsible for team organization and computer systems and <strong>Pinocchio</strong>, who was a ninja expert in martial arts.</p>\n" +
