@@ -4,13 +4,38 @@
     android:layout_height="match_parent"
     android:background="@color/toolBarBackground"
     tools:context="android.in.teachcoder.app.bedtimestories.AboutUs">
-
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_about_us"
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/about_us"
+
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="80dp"
+        android:text="@string/product_of"
+        android:layout_above="@id/logo"
+        android:gravity="center"
+        android:textColor="@color/cardBackgroundColor"
+        />
+
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="www.teachcoder.in"
+        android:layout_below="@id/logo"
+        android:gravity="center"
+        android:textColor="@color/cardBackgroundColor"/>
 
 
 </RelativeLayout>

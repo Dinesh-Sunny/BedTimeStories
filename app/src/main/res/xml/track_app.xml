@@ -9,5 +9,8 @@
     <screenName name="android.in.teachcoder.app.bedtimestories.StoryActivity">
         Story Description
     </screenName>
+    <screenName name="android.in.teachcoder.app.bedtimestories.AboutUs">
+        About US
+    </screenName>
 
 </resources>

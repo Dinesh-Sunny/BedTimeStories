@@ -19,7 +19,7 @@ public class StoryArray {
         //Story1
         stories.add(new Story(
                 "The Secret of Happiness",
-                "by Ananya Sarkar",
+
                 Html.fromHtml("<p class=\"bodyText2\">Once upon a time, there were three brothers named Samuel, Timothy and Xander, who lived in a cottage by the woods. They were honest and hardworking. Every day, they would venture into the forest to fell wood. Later, they would sell it in the market where it would fetch a decent price. Thus, their life continued in this manner. <br />\n" +
                         "</p>\n" +
                         "<div class=\"gap\"></div>\n" +
@@ -63,125 +63,172 @@ public class StoryArray {
                         "</p>\n" +
                         "<div class=\"gap\"></div>\n" +
                         "<p class=\"bodyText2\">Samuel, Timothy and Xander realized their mistake and went back home. They saw how lucky they were to have the gifts for which they had once craved. Samuel felt grateful for being the owner of a mansion and began taking good care of it. Timothy began to plough his land diligently so as to have a good harvest in time. Xander too learnt to appreciate his pretty wife’s chores in the house and her devotion towards him. Remembering that happiness and content went side by side, never again did the brothers take their blessings for granted. And thus, they lived happily ever after.</p>\n" +
-                        "<div class=\"gap\"></div>"),
-                R.drawable.tstroy1,
+                        "<div class=\"gap\"></div>" +
+                        "\"<p>&nbsp;</p>\\n\" +\n" +
+                        "                            \"<p><strong>THE END</strong></p>"),
+                R.drawable.tstory1,
                 R.drawable.mstory1));//Story1 Ends
 
 
 
         //Story2
         stories.add(new Story(
-                "MERRY CHRISTMAS",
-                "by: Lorena Ochoa.",
-                Html.fromHtml("<p>In a faraway city, four beautiful <strong>girls</strong> lived with their <strong>Mum</strong> and their <strong>Dad</strong>. The girls loved <strong><span style=\"color: #339966\">Christmas</span></strong>, especially the presents they were given.</p>\n" +
-                        "<p>One day, the girls asked their father:</p>\n" +
-                        "<p>&#8211; &#8220;Does Santa put <span style=\"color: #cc99ff\">magic</span> powder taken from <span style=\"color: #ff99cc\"><strong>fairies</strong></span> over his reindeers so they can fly?&#8221;</p>\n" +
-                        "\n" +
-                        "<p>And their Dad replied: &#8220;No. That&#8217;s not true&#8221;.</p>\n" +
-                        "<p>Their Mum reprimanded their father for the answer he gave the girls:</p>\n" +
-                        "<p>&#8220;Of course fairies exist&#8221;, she said, &#8220;and they help <span style=\"color: #ff0000\"><strong>Santa </strong></span>give beautiful presents to all <strong>children</strong>&#8220;.</p>\n" +
-                        "<p>When the girls woke up the next day, they exitedly ran to the Christmas tree. When they saw that Santa had left presents they believed the story their mum had told them and were very happy.</p>\n" +
-                        "<p>and they spent the whole day full of excitement, playing with all their new toys.</p>\n" +
-                        "<p><span style=\"color: #ff99cc\"><em><strong>And that is the end of the story&#8230;</strong></em></span></p>"),
-                R.drawable.tstory2,
-                R.drawable.mstory2));//Story2 Ends
+                "Fox and a Crane"
+                ,
+                Html.fromHtml("<strong>Once a fox and a crane became friends. So, the fox invited the crane to dinner. The crane accepted the invitation and reached the fox's place at sunset.<br />\n" +
+                        "<br />\n" +
+                        "The fox had prepared soup for his mate. But as we all know that foxes are cunning by nature, he served the soup in flat dishes. So, he himself lapped the crane's share with his tongue enjoying its relish a lot. But the crane could not enjoy it at all with his long beak and had to get back home hungry. The shrewd fox felt extremely amused.<br />\n" +
+                        "<br />\n" +
+                        "After few days, the crane invited the fox to dine in with him. The fox reached his place well in time. The crane gave him a warm welcome and served the soup in a jug with a long and narrow neck.<br />\n" +
+                        "<br />\n" +
+                        "So, the crane enjoyed the soup with great relish using his long beak. The fox's mouth couldn't reach the soup through the narrow neck of the jug. He had to return home hungry. Now he realized that he had been repaid for his behaviour with the crane. </strong>\n" +
+                        "<div align=\"center\"><h2><em>The End..</em></h2>"),
+                R.drawable.tstory13,
+                R.drawable.mstory13));//Story2 Ends
 
         //Story3
         stories.add(new Story(
-                "PUPPY AURORA",
-                "by: Camila",
-                Html.fromHtml("<p><span style=\"color: #ff00ff\"><em><strong>Once upon a time&#8230;</strong></em></span></p>\n" +
-                        "<p>There were a couple of <strong>dogs</strong> that had a little<strong><span style=\"color: #ff99cc\"> puppy </span></strong>called Aurora. She was very cute, playful and lovely. She loved sharing everything with her <strong>friends</strong>.</p>\n" +
-                        "<p>One day, Aurora told her parents she was going out to look for food. Another dog, bad and grumpy, was waiting for her outside. She was called Tita, and was in front of her house.</p>\n" +
-                        "\n" +
-                        "<p>When Aurora arrived back home with the food, Tita ordered Aurora to give her the food. Aurora said no and went running inside her home. Finally, the owner came to shoo Tita away, but Tita was still angry.</p>\n" +
-                        "<p><em>Three years later&#8230;</em></p>\n" +
-                        "<p>Aurora went out with a friend and met a dog called Harry. He was a very cute, strong and handsome dog. Aurora greeted him, Harry greeted her back, then they started talking.</p>\n" +
-                        "<p>It was 8:30 in the evening and Aurora had to go back home. Harry asked to go with her and she accepted. When they arrived, her parents looked at Harry and Aurora introduced him to them.</p>\n" +
-                        "<p>Meanwhile Tita was planning to kidnap Aurora and got into the house, but when she tried to kidnap her Harry <strong>defended</strong> her. Aurora was very <strong><span style=\"color: #3366ff\">happy and thankful</span> </strong>to Harry.</p>\n" +
-                        "<p>When harry went back home and Aurora went to sleep, Tita got into the house again and this time <em>did</em> kidnap her.</p>\n" +
-                        "<p>The next day Harry went to Aurora´s house and noticed her parents were anxious and angry. When Harry asked them what was going on, Aurora&#8217;s mother told him that Aurora had disappeared and Harry remembered what had happened the night before, suspecting that it was Tita again.</p>\n" +
-                        "<p>Nineteen days went by without any sign of Aurora. Harry spent day and night looking for her everywhere. Then, one day, Harry saw Tita and asked her:</p>\n" +
-                        "<p>&#8211; &#8220;Where is Aurora!!&#8221;</p>\n" +
-                        "<p>Tita laughed, and Harry shouted at her:</p>\n" +
-                        "<p>&#8211; &#8220;Don´t laugh!! Tell me where she is!!&#8221;</p>\n" +
-                        "<p>Tita <strong>confessed</strong> that Aurora was locked inside a house. Harry found her and saved her and then he took her back home to her <strong>parents.</strong></p>\n" +
-                        "<p>Her parents were very happy to see their <strong>daughter</strong> and Aurora was happier than ever.</p>\n" +
-                        "<p><span style=\"color: #99ccff\"><em><strong>And that is the end of the story&#8230;</strong></em></span></p>\n" +
-                        "<p><em>Values of the Short Story: Friendship and gratitude are the way to a happy ending.</em></p>"),
-                R.drawable.tstory3,
-                R.drawable.mstory3));//Story3 Ends
+                "Love and Time",
+                Html.fromHtml("<p class=\"bodyText2\">Once upon a time, there was an island where all the feelings lived: Happiness, Sadness, Knowledge, and all of the others, including Love. One day it was announced to the feelings that the island would sink, so all constructed boats and left. Except for Love.</p>\n" +
+                        "<div class=\"gap\"></div>\n" +
+                        "<p class=\"bodyText2\">Love was the only one who stayed. Love wanted to hold out until the last possible moment. When the island had almost sunk, Love decided to ask for help.</p>\n" +
+                        "<div class=\"gap\"></div>\n" +
+                        "<p class=\"bodyText2\">Richness was passing by Love in a grand boat. Love said, “Richness, can you take me with you?”</p>\n" +
+                        "<div class=\"gap\"></div>\n" +
+                        "<p class=\"bodyText2\">Richness answered, “No, I can’t. There is a lot of gold and silver in my boat. There is no place here for you.”</p>\n" +
+                        "<div class=\"gap\"></div>\n" +
+                        "<p class=\"bodyText2\">Love decided to ask Vanity who was also passing by in a beautiful vessel. “Vanity, please help me!” “I can’t help you, Love. You are all wet and might damage my boat,” Vanity answered.</p>\n" +
+                        "<div class=\"gap\"></div>\n" +
+                        "<p class=\"bodyText2\">Sadness was close by so Love asked, “Sadness, let me go with you.” “Oh . . . Love, I am so sad that I need to be by myself!” Happiness passed by Love, too, but she was so happy that she did not even hear when Love called her.</p>\n" +
+                        "<div class=\"gap\"></div>\n" +
+                        "<p class=\"bodyText2\">Suddenly, there was a voice, “Come, Love, I will take you.” It was an elder.<br />\n" +
+                        "So blessed and overjoyed, Love even forgot to ask the elder where they were going. When they arrived at dry land, the elder went his own way. Realizing how much was owed the elder, Love asked Knowledge, another elder, “Who Helped me?”</p>\n" +
+                        "<div class=\"gap\"></div>\n" +
+                        "<p class=\"bodyText2\">“It was Time,” Knowledge answered.</p>\n" +
+                        "<div class=\"gap\"></div>\n" +
+                        "<p class=\"bodyText2\"><strong>“Time?” asked Love. “But why did Time help me?” Knowledge smiled with deep wisdom and answered, “Because only Time is capable of understanding how valuable Love is.”</span></strong></p>\n" +
+                        "</div>"),
+                R.drawable.tstory14,
+                R.drawable.mstory14));
+                //Story3 Ends
 
             //Story4
             stories.add(new Story(
-                    "SUSSI´S BLUE SHOES",
-                    "by: Delsy Janet Quispe Goto.",
-                    Html.fromHtml("<p>Once upon a time, there was a<strong> girl</strong> called Sussi. She was living with her <strong>mum</strong><strong style=\"line-height: 1.5\"></strong><span style=\"line-height: 1.5\"> and </span><span style=\"color: #cc99ff\"><strong>dad</strong></span><span style=\"line-height: 1.5\"> and her </span><strong style=\"line-height: 1.5\"><span style=\"color: #99ccff\">sister</span></strong><span style=\"line-height: 1.5\"> Andrea.</span></p>\n" +
-                            "<p>Sussi was a <strong>beautiful girl</strong>, nice and lovely who was always helping and she loved her family so much.</p>\n" +
-                            "\n" +
-                            "<p>One day, her parents gave her a nice pair of blue shoes for her <span style=\"color: #ff0000\"><strong>birthday</strong></span>. And her sister Andrea gave her a nice colorful ball.</p>\n" +
-                            "<p>Sussi was amazed by her blue shoes and did not care the colorful ball her sister had given her.</p>\n" +
-                            "<p>Days passed&#8230; She always wore her blue shoes, went to school in her blue shoes, went for walks in her blue shoes and played in her blue shoes. She even went to sleep wearing her blue shoes.</p>\n" +
-                            "<p>Her mum had to wait until she fell asleep to take her blue shoes off.</p>\n" +
-                            "<p>More days passed. Her shoes started to get old because she used them for everything.</p>\n" +
-                            "<p>One day, her sister Andrea, hid her blue shoes and Sussi became really sad, because she wanted them, she didn&#8217;t want to wear other shoes, because these were her favorite shoes.</p>\n" +
-                            "<p>Andrea, her sister, could not bear to see her sister so sad so she gave her back her blue shoes.</p>\n" +
-                            "<p>When Sussi saw her old blue shoes was really <strong><span style=\"color: #ff00ff\">happy</span></strong>, and jumped with joy.</p>\n" +
-                            "<p>One day, Sussi saw a small hole in the sole of her blue shoes, and ran to show to her mum. Her mum told her that it was time to change her shoes, but Sussi did not want any others.</p>\n" +
-                            "<p>Her mum talked to her explaining that many things in life do not last forever, including blue shoes, and that we have to learn to get rid of those things we really like.</p>\n" +
-                            "<p>Sussi&#8217;s mum bought her another pair of beautiful shoes which were white this time. Sussi was so happy when saw her new white shoes.</p>\n" +
-                            "<p style=\"text-align: center\"><span style=\"color: #3366ff\"><strong>THE END</strong></span></p>\n" +
-                            "<p style=\"text-align: center\">Moral of the Short Story for Kids: Nothing lasts forever, we have to learn to accept new things.</p>\n" +
-                            "<p style=\"text-align: center\">Values of the Short Story for Kids: Love, respect, and humility.</p>"),
-                    R.drawable.tstory4,
-                    R.drawable.mstory4));//Story4 Ends
+                    "Gold Coins and a Selfish Man",
+                    Html.fromHtml("<p class=\"bodyText2\">Sam was a greedy and a selfish man. He always desired to have lots and lots of money and never hesitated to cheat others to make money. Also, he never wished to share anything with others. He was so selfish that he would like to own everything for himself. <br>\n" +
+                            "<br>\n" +
+                            "The selfish man used to calculate each and every small aspect. He paid very little amount of wages to his servants. Where ever he went, he calculated a lot to save money by deceiving others. He also told a lot of lies to protect his wealth. Simply, Sam was the antonym for the word; HONESTY. <br>\n" +
+                            "<br>\n" +
+                            "However, he was taught a nice lesson by his own act. <br>\n" +
+                            "<br>\n" +
+                            "One day, he missed a small bag, which contained 50 gold coins. He was searching for the bag of gold coins, day and night. He sent his workers in search of the bag, but none could find it. He told his friends and neighbors that he had lost a bag of gold coins and requested them to inform him, if they found it. Sam was so sad that he had lost so many gold coins. <br>\n" +
+                            "<br>\n" +
+                            "After a couple of days, a ten year old girl, who lived near Sam’s house, told her father that she had found a small bag and that it had 50 gold coins. Her father worked in Sam’s land and he told his daughter that the bag belonged to his master. He had lost it two days ago, and added that he would return the bag to his master. <br>\n" +
+                            "<br>\n" +
+                            "They weren’t very rich, and the father could have easily retained the gold coins, and hide the fact of finding the bag. He was so honest that he felt that he should return the valuable coins to his master, as he was the rightful owner. <br>\n" +
+                            "<br>\n" +
+                            "He gave the bag back to his master Sam, and asked him to check whether the bag had 50 gold coins. Sam who was literally happy to get the coins, decided to play a trick. He shouted at his worker, ‘there were 75 gold coins in this bag and you gave me only 50! Where are the other coins? You have stolen them!’<br>\n" +
+                            "<br>\n" +
+                            "The worker was shocked to hear this, and he pleaded to his master that he gave whatever his daughter had found. Selfish and greedy, Sam did not accept the worker’s story, and decided to take the issue to court. <br>\n" +
+                            "<br>\n" +
+                            "The judge heard both the sides. He questioned the daughter and the worker about the number of coins they had found in the bag, and they assured it was only 50.<br>\n" +
+                            "<br>\n" +
+                            "He cross-examined Sam and Sam replied, ‘Yes m’lord, I had 75 gold coins in my bag, and they gave me only 50. Hence, it is quite obvious that they have stolen the balance 25 coins!’<br>\n" +
+                            "<br>\n" +
+                            "Judge then asked, ‘Are you sure you that your bag had 75 coins?’ and Sam nodded his head in acceptance.<br>\n" +
+                            "<br>\n" +
+                            "The judge then made his judgment, ‘Since Sam lost a bag of 75 gold coins and the bag found by the girl had only 50 coins, it is obvious that the bag found, didn’t belong to Sam, and it was lost by someone else. In addition, if anyone found a bag of 75 gold coins, I will declare that it belongs to Sam. As there are no claims against the loss of 50 coins, I order the girl and his father to take those 50 coins as a token of appreciation for their honesty!’<br>\n" +
+                            "<strong><br>\n" +
+                            "Honesty will always be rewarded and greediness punished!</strong></p>"),
+                    R.drawable.tstory15,
+                    R.drawable.mstory15));//Story4 Ends
 
             //Story5
             stories.add(new Story(
-                    "Franz's Dream",
-                    "by Unknown",
-                    Html.fromHtml("<p>A long, long time ago, a boy called Franz was living in a city called <em>Adventurevil</em>. Franz <span style=\"color: #ff0000\">loved</span> many people, his <span style=\"color: #339966\">grandparents,</span> his <span style=\"color: #3366ff\">parents</span> and also his <span style=\"color: #cc99ff\">friends</span>, who were living in the house beside his, who were called James and Sarah.</p>\n" +
-                            "<p>Franz liked playing <strong>video games</strong> with the guys and Sarah liked playing with her <strong>dolls</strong>.</p>\n" +
-                            "\n" +
-                            "<p>They used to meet up every night to talk about Franz´s <strong>dreams</strong>. He said that his latest dream was about pretty <strong><span style=\"color: #ff99cc\">mermaids</span></strong> and beautiful <strong><span style=\"color: #99ccff\">fairies</span> </strong>who granted all kind of <strong>wishes</strong>.</p>\n" +
-                            "<p>&nbsp;</p>\n" +
-                            "<p>He also dreamed that the <strong>earth was amazing</strong>. Some people thought he was crazy but he always said that when he was sleeping, he felt as if he was in other world.</p>\n" +
-                            "<p>His friends James and Sarah pretended to believe him, because it <strong>cheered him up</strong>. Franz always said that his parents did not believe him, but he knew his dreams was real.</p>\n" +
-                            "<p>He was different from other children because he dreamed about a fantastic world.</p>\n" +
-                            "<p>Years passed, and Franz spent his time <strong>travelling</strong> to different parts of the world, always saying what he had dreamt. His friend Sarah had become one of the best <strong><span style=\"color: #ff99cc\">ballet dancers</span></strong> in the world, and James was an important <strong><span style=\"color: #800000\">player.</span></strong></p>\n" +
-                            "<p>Each of them were following their dreams, but they still saw each other, and continue to be very good friends.</p>\n" +
-                            "<p><em><strong><span style=\"color: #ffcc99\">And that is the end of the Short Story&#8230;</span></strong></em></p>"),
-                    R.drawable.tstory5,
-                    R.drawable.mstory5));//Story5 Ends
+                    "The Wolf and the Lamb",
+                    Html.fromHtml("It was a little lamb, accompanied by a flock of sheep to a grazing land. As the flock was grazing the green grass, the little lamb, which was so mischievous, was wandering here and there. It saw fresh grass at a distance and separated from the crew to enjoy the fresh bites. <br />\n" +
+                            "</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<p class=\"bodyText2\">It came across a long way from its group and was eating the fresh and delicious grass unaware of the fact that it was closely followed by a wolf! <br />\n" +
+                            "</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<p class=\"bodyText2\">When the lamb realized that it lost its way and was far away from the flock, it decided to join them. However, the lamb was stunned to see a hungry and cunning wolf standing behind it. <br />\n" +
+                            "</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<p class=\"bodyText2\">The lamb realized that there is no option left except to surrender itself to the wolf. <br />\n" +
+                            "</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<p class=\"bodyText2\">The lamb asked the wolf, ‘Are you going to eat me?’<br />\n" +
+                            "The wolf said, ‘Yes, at any cost!’<br />\n" +
+                            "</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<p class=\"bodyText2\">The lamb said again, ‘But can you please wait for some more time? I eat a lot of grass now and my stomach is filled with grass. If you eat me now, you will feel like eating grass!<br />\n" +
+                            "</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<p class=\"bodyText2\">The wolf agreed, ‘Oh yes I will wait. You are here before me and I can wait for some time!’<br />\n" +
+                            "The lamb thanked. <br />\n" +
+                            "</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<p class=\"bodyText2\">After sometime, the wolf got ready to kill lamb, but the lamb stopped him. <br />\n" +
+                            "</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<p class=\"bodyText2\">‘Dear wolf, please wait for some more time. The grass is yet to get digest. If you eat me now, you will see a lot of grass in my stomach! Let me dance and it will be digested easily.’<br />\n" +
+                            "</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<p class=\"bodyText2\">Wolf agreed. <br />\n" +
+                            "</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<p class=\"bodyText2\">The little lamb danced crazily and carefully and moved the foot towards the group. Suddenly the lamb stopped dancing. <br />\n" +
+                            "</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<p class=\"bodyText2\">Wolf enquired what happen. ‘See, remove this bell tied to my neck and rang it as fast as you can, so that I will dance faster and the food will digest very sooner’<br />\n" +
+                            "</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<p class=\"bodyText2\">The wolf, with the desire to eat the lamb removed the bell tied to the lamb’s neck and shaked it speedily. <br />\n" +
+                            "</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<p class=\"bodyText2\">Meanwhile, shepherd was searching for the little lamb and heard the bell sound. He saw the wolf and the lamb. He ran towards wolf with a stick. Seeing the shepherd with a stick, the wolf ran away, and the lamb was saved! <br />\n" +
+                            "</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<p class=\"bodyText2\"><strong>Physical strength isn’t just sufficient. Sometimes, weaker people with smart mind can overcome the physically strong ones! </strong></p>"),
+                    R.drawable.tstory16,
+                    R.drawable.mstory16));//Story5 Ends
 
             //Story6
             stories.add(new Story(
-                    "GOLFY AND THE CHRISTMAS TREE",
-                    "by Unknown",
-                    Html.fromHtml("<p><span style=\"color: #cc99ff\"><em><strong>Once upon a time&#8230;</strong></em></span></p>\n" +
-                            "<p>There was a <span style=\"color: #99cc00\"><strong>golf club</strong> </span>called Golfy, who played golf every day on a golf links made precisely to practice this <strong>sport</strong> on the outskirt of the city.</p>\n" +
-                            "<p>The golf club was a marvellous <strong>golf player</strong>. He always won competitions and golf tournaments.</p>\n" +
-                            "<p>" +
-                            "<p>Well&#8230;actually, not always&#8230;because one day, a new<span style=\"color: #008080\"><strong> tree</strong> </span>appeared on the golf links, called Little Tree, and this tree really liked golf balls, and used to keep them by hanging them from his own branches at <span style=\"color: #3366ff\"><strong>Christmas</strong></span>.</p>\n" +
-                            "<p>&nbsp;</p>\n" +
-                            "<p>The golf links groundsman really liked this tree, so Little Tree became the golf links <strong>mascot</strong>.</p>\n" +
-                            "<p>Golfy, the golf club got very annoyed when he found out who was the mascot, because Little Tree always kept Golfy´s balls so in the end Golfy couldn´t play any more golf.</p>\n" +
-                            "<p>When December arrived, Golfy bought <span style=\"color: #ff00ff\"><strong>Christmas baubles</strong></span> for Little Tree, so he could hang them from his branches and so not keep the Golfy&#8217;s golf balls or annoy him any more. But Little Tree only liked golf balls.</p>\n" +
-                            "<p>So, Little Tree hung all the golf balls he had on his own branches and became an amazing <strong>Christmas tree.</strong></p>\n" +
-                            "<p>Golfy didn´t know what to do, so he decided to strike a deal with Little Tree. He said, &#8220;Hi, Little Tree, you took away all my golf balls, I can see them hanging from your branches and I need them to play golf. Could you give them back to me? I will give you these nice Christmas baubles in exchange&#8221;.</p>\n" +
-                            "<p>The Christmas tree replied: &#8220;Golfy! Don´t try to trick me, golf balls are more beautiful than those bright, shiny Christmas baubles&#8221;.</p>\n" +
-                            "<p>Then, Golfy had a great idea. He decided to paint the Christmas baubles like golf balls, that is to say, white and with small holes.</p>\n" +
-                            "<p>He went back to visit Little Tree and said, &#8220;Little Tree, look, I am going to give you these Christmas baubles that look just like golf balls. This way you can enjoy your ornaments and also give me back my golf balls so I can continue playing golf. What do you think?&#8221;.</p>\n" +
-                            "<p>Little Tree thought about it and realized that in this way, both of them would come out winners and he also realised that he had been selfish and shouldn´t have made Golfy angry.</p>\n" +
-                            "<p>Especially, he thought, during Christmas because is time to <strong>think of others</strong> and not only of yourself.</p>\n" +
-                            "<p style=\"text-align: center\"><span style=\"color: #ff99cc\"><strong>THE END</strong></span></p>"),
-                    R.drawable.tstory6,
-                    R.drawable.mstory6));//Story6 Ends
+                    "A glass of milk",
+                    Html.fromHtml("<p class=\"bodyText2\">There was a poor boy who made a living with selling various objects door to door, to pay for his school. He was very hungry and felt he couldn’t walk even a few steps. He decided to ask for food at a house. He knocked the door and was stunned to see a beautiful young girl at the door step. With so much hesitation, in spite of his hunger, he asked the girl to offer a glass of water.<br />\n" +
+                            "</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<p class=\"bodyText2\">The young girl understood his hunger through his eyes and offered him milk in a huge glass. With astonished look he drank the milk very slowly. And asked how much I owe you for this milk?<br />\n" +
+                            "</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<p class=\"bodyText2\">The girl replied ‘<em>I don’t accept anything for kindness.’</em>&nbsp;With big smile in his face, the boy thanked the girl from the bottom of his heart and left the place.<br />\n" +
+                            "</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<p class=\"bodyText2\">Years passed by. The young girl fell ill and was diagnosed with the rarest kind of nervous condition, which was a complicated condition to treat. While many experienced doctors baffled at her condition, she was taken to a big hospital to study about her condition.<br />\n" +
+                            "</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<p class=\"bodyText2\">Dr. Kevin, a renowned specialist was called in by the hospital to examine her. He gave a visit to the hospital where she was admitted to learn about the rare condition. As he entered her room, Dr. Kevin immediately identified who that woman was!<br />\n" +
+                            "</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<p class=\"bodyText2\">With all his efforts and knowledge, Dr.Kevin battled hardly with the disease for weeks and months. At last, he won over the disease and the woman was completely cured. Everyone praised the doctor, while the woman was quite afraid about the hospital bill as she could not afford to pay.<br />\n" +
+                            "</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<p class=\"bodyText2\">Dr. Kevin asked the hospital to send the bill to him as he would add his charges. After receiving the hospital bill, he wrote a note and sent it to her. With lots of fear, she opened the bill and had no idea how much she was charged.<br />\n" +
+                            "</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<p class=\"bodyText2\">Her eyes filled with tears and happiness once she opened the bill. She found the bill cancelled and that was not the reason for her happiness.</p>\n" +
+                            "<div class=\"gap\"></div>\n" +
+                            "<span class=\"bodyText2\">She saw the note written by Dr.Kevin - “<em>Bill Paid years ago with a glass of milk!</em>”</span>" +
+                            "\"<p>&nbsp;</p>\\n <p><strong>THE END</strong></p>"),
+                    R.drawable.tstory17,
+                    R.drawable.mstory17));//Story6 Ends
 
             //Story7
             stories.add(new Story(
-                    "THE EMPEROR´S NEW CLOTHES",
-                    "by: Christian Andersen",
+                    "The Emperor's New Clothes",
+
                     Html.fromHtml("Once upon a time there was an <strong>emperor that spent all his money on expensive clothes.</strong> He cared nothing about other activities like going to the theatre, or going for a ride in his carriage, except to show off his new clothes. He <strong>didn´t even care about talking to people.</strong></p>\n" +
                             "<p>In the great city where he lived, there were lots of tourists. One day <strong>two swindlers</strong> arrived and let it be known that they <strong>were weavers</strong> and they said they could <strong>make the emperor the most magnificent suit from a special fabric</strong>. Not only were their colours and patterns uncommonly fine, <strong>but clothes made from this cloth were only visible to clever people</strong>.</p>\n" +
                             "<p>&#8220;I would then be able to <strong>discover</strong> which men in my empire are unfit for their posts&#8221; &#8211; thought the Emperor &#8211; &#8220;and I could tell the wise men from the fools&#8221;.</p>\n" +
@@ -202,23 +249,22 @@ public class StoryArray {
                     R.drawable.mstory7));//Story7 Ends
 
 //            //Story8
-//            stories.add(new Story(
-//                    "KING MIDAS",
-//                    "by Unknown",
-//                    Html.fromHtml("<p>This is the story of a King who was really <strong>greedy</strong> and, as we all know, <strong>greed over-reaches itself;</strong> one may end up with nothing.</p>\n" +
-//                            "<p><strong>King Midas</strong> lived in a big palace beside a river. He was<strong> very rich</strong>, and had a lot of money and luxury. But he wanted more &#8211; “I want to be richer!”- he would say.</p>\n" +
-//                            "<p>One day he found a magic lamp and a <strong>magician</strong> appeared. &#8211; “I want to have more treasure than I already have.”- Said King Midas. The magician thought that it was an opportunity to <strong>teach him a lesson</strong> and said, – “Your majesty, I can give you a power that will make you the richest man in the world, anything that you touch will turn into gold”.\n" +
-//                            "<p>The king was delighted with his gold fortune, everything he touched<strong> turned into gold</strong>, and he turned cutlery, tables, chairs and flowers into gold. But when he sat down for dinner, he also turned his food into gold.</p>\n" +
-//                            "<p>Then King Midas went to visit his<strong> daughter</strong> and the moment he hugged her, she turned into a<strong> gold statue</strong>. Desperate he went to ask the magician what was going on. &#8211; “I wanted you to realise that being rich is not important, you have to pay attention to<strong> the important things, like your family</strong>”, said the magician.</p>\n" +
-//                            "<p>And King Midas learnt his lesson, and the magician changed everything back to normal. King Midas was<strong> never greedy again</strong> and lived happily with his family to the end of his days.</p>\n" +
-//                            "<p><strong>THE END</strong></p>"),
-//                    R.drawable.tstory8,
-//                    R.drawable.mstory8));//Story8 Ends
+            stories.add(new Story(
+                    "King Midas",
+
+                    Html.fromHtml("<p>This is the story of a King who was really <strong>greedy</strong> and, as we all know, <strong>greed over-reaches itself;</strong> one may end up with nothing.</p>\n" +
+                            "<p><strong>King Midas</strong> lived in a big palace beside a river. He was<strong> very rich</strong>, and had a lot of money and luxury. But he wanted more &#8211; “I want to be richer!”- he would say.</p>\n" +
+                            "<p>One day he found a magic lamp and a <strong>magician</strong> appeared. &#8211; “I want to have more treasure than I already have.”- Said King Midas. The magician thought that it was an opportunity to <strong>teach him a lesson</strong> and said, – “Your majesty, I can give you a power that will make you the richest man in the world, anything that you touch will turn into gold”.\n" +
+                            "<p>The king was delighted with his gold fortune, everything he touched<strong> turned into gold</strong>, and he turned cutlery, tables, chairs and flowers into gold. But when he sat down for dinner, he also turned his food into gold.</p>\n" +
+                            "<p>Then King Midas went to visit his<strong> daughter</strong> and the moment he hugged her, she turned into a<strong> gold statue</strong>. Desperate he went to ask the magician what was going on. &#8211; “I wanted you to realise that being rich is not important, you have to pay attention to<strong> the important things, like your family</strong>”, said the magician.</p>\n" +
+                            "<p>And King Midas learnt his lesson, and the magician changed everything back to normal. King Midas was<strong> never greedy again</strong> and lived happily with his family to the end of his days.</p>\n" +
+                            "<p><strong>THE END</strong></p>"),
+                    R.drawable.tstory8,
+                    R.drawable.mstory8));//Story8 Ends
 
             //Story9
             stories.add(new Story(
                     "True Wealth",
-                    "by Unknown",
                     Html.fromHtml("<p class=\"bodyText2\">Once upon a time, there lived a very rich and wealthy man in a big town. He had all sorts of wealth and led a luxurious life. He had every luxury at his footstep and could afford to feed for the entire people of his town. He always boasted his luxurious life to his friends and relatives.&nbsp; <br />\n" +
                             "</p>\n" +
                             "<div class=\"gap\"></div>\n" +
@@ -261,7 +307,6 @@ public class StoryArray {
             //Story10
             stories.add(new Story(
                     "Golden Eggs",
-                    "by unknown",
                     Html.fromHtml("<strong>Once upon a time there lived a cloth merchant in a village with his wife and two children. They were indeed quite well-off. They had a beautiful hen which laid an egg everyday. It was not an ordinary egg, rather, a golden egg. But the man was not satisfied with what he used to get daily. He was a get rich-trice kind of a person.<br />\n" +
                             "<br />\n" +
                             "The man wanted to get all the golden eggs from his hen at one single go. So, one day he thought hard and at last clicked upon a plan. He decided to kill the hen and get all the eggs together.<br />\n" +
@@ -280,7 +325,6 @@ public class StoryArray {
             //Story11
             stories.add(new Story(
                     "Dove and The Bee",
-                    "by unknown",
                     Html.fromHtml("<strong>Once a swarm of bees had put up their hive in a tree that stood on the bank of a river. They remained busy collecting honey all the day. One day a bee felt thirsty and went to the river. As it tried to drink water, the water carried it away. So, it was about to drown.<br />\n" +
                             "<br />\n" +
                             "Fortunately, a dove was sitting on the branch of a tree.<br />\n" +
@@ -296,19 +340,157 @@ public class StoryArray {
 
             //Story12
             stories.add(new Story(
-                    "FOOLISH FRIEND",
-                    "by unknown",
-                    Html.fromHtml("<strong>Once upon a time, a deer fell ill. So, he came to a grassy patch of land and lay down there. In a day or two, he became so weak that he couldn't even move his body.<br />\n" +
-                                    "<br />\n" +
-                                    "Within no time, the news of his illness spread all over and many of his friends came to enquire after his health. Evidently, they were all grass eating animals. They stayed with the deer to nurse him. In a few days, they grazed all the grass of the patch and not even a blade of grass was left there. <br />\n" +
-                                    "<br />\n" +
-                                    "In a few days, the deer started getting well. Seeing this, his friends started leaving him one by one and the deer was left all alone. But still he was too weak to get up and move about.<br />\n" +
-                                    "<br />\n" +
-                                    "As his friends had grazed all the grass of the patch and he was weak to go grazing, he starved to death. Had his friends not grazed the grass in the patch, he would have fed on it and lived. </strong>\n" +
-                                    "<h2><em>The End..</em></h2>"),
-                    R.drawable.tstory12,
-                    R.drawable.mstory12));//Story12 Ends
+                    "Donkey and the merchant",
+                    Html.fromHtml("<p class=\"pageName\"><span class=\"pageName\"> </span><span class=\"bodyText2\">One beautiful spring morning, a merchant loaded his donkey with bags of salt to go to the market in order to sell them. The merchant and his donkey were walking along together. They had not walked far when they reached a river on the road.</span></p>\n" +
+                            "<br>\n" +
+                            "<p class=\"bodyText2\">Unfortunately, the donkey slipped and fell into the river and noticed that the bags of salt loaded on his back became lighter.</p>\n" +
+                            "<br>\n" +
+                            "<p class=\"bodyText2\">There was nothing the merchant could do, except return home where he loaded his donkey with more bags of salt. As they reached the slippery riverbank, now deliberately, the donkey fell into the river and wasted all the bags of salt on its back again.</p>\n" +
+                            "<br>\n" +
+                            "<p class=\"bodyText2\">The merchant quickly discovered the donkey’s trick. He then returned home again but re-loaded his donkey with bags of sponges.</p>\n" +
+                            "<br>\n" +
+                            "<p class=\"bodyText2\">The foolish, tricky donkey again set on its way. On reaching the river he again fell into the water. But instead of the load becoming lighter, it became heavier.</p>\n" +
+                            "<br>\n" +
+                            "<p class=\"bodyText2\"><strong>The merchant laughed at him and said: “You foolish donkey, your trick had been discovered, you should know that, those who are too clever sometimes over reach themselves.”</strong></p>\n" +
+                            "</div>"),
+                    R.drawable.tstory26,
+                    R.drawable.mstory26));//Story12 Ends
 
+        //Story13
+        stories.add(new Story(
+                "Foolish Monkeys",
+                Html.fromHtml("<p class=\"bodyText2\">Before several centuries, there was a very large, dense and dark forest. A group of monkeys arrived at the forest. It was winter season, and the monkeys struggled hard to survive the freezing cold nights. They were hunting for fire to get warm.&nbsp; <br />\n" +
+                        "</p>\n" +
+                        "<div class=\"gap\"></div>\n" +
+                        "<p class=\"bodyText2\">One night, they saw a firefly and considered it a dab of fire. All the monkeys in the group shouted ‘Fire, Fire, Fire, Yeah we got fire!’&nbsp; <br />\n" +
+                        "</p>\n" +
+                        "<div class=\"gap\"></div>\n" +
+                        "<p class=\"bodyText2\">A couple of monkeys tried to catch the firefly and it escaped. They were sad as they could not catch the fire. They were talking to themselves that they couldn’t live in the cold if they didn’t get the fire.&nbsp; <br />\n" +
+                        "</p>\n" +
+                        "<div class=\"gap\"></div>\n" +
+                        "<p class=\"bodyText2\">The next night, again they saw many fireflies. After several attempts, the monkeys caught a few fireflies. They put the fireflies in a hole dug in the land and tried to blow the flies.&nbsp; <br />\n" +
+                        "</p>\n" +
+                        "<div class=\"gap\"></div>\n" +
+                        "<p class=\"bodyText2\">They blew the flies very hard without knowing the fact that they were flies!&nbsp; <br />\n" +
+                        "</p>\n" +
+                        "<div class=\"gap\"></div>\n" +
+                        "<p class=\"bodyText2\">An owl was watching the activities of the monkeys. The owl reached the monkeys and told them, ‘Hey those are not fire! They are flies. You won’t be able to make fire from it!’<br />\n" +
+                        "</p>\n" +
+                        "<div class=\"gap\"></div>\n" +
+                        "<p class=\"bodyText2\">The monkeys laughed at the owl. One monkey replied the owl, ‘Hey old owl you don’t know anything about how to make fire. Don’t disturb us!’<br />\n" +
+                        "</p>\n" +
+                        "<div class=\"gap\"></div>\n" +
+                        "<p class=\"bodyText2\">The Owl warned the monkeys again and asked them to stop their foolish act. ‘Monkeys, you cannot make fire from the flies! Please hear my words.’<br />\n" +
+                        "</p>\n" +
+                        "<div class=\"gap\"></div>\n" +
+                        "<p class=\"bodyText2\">The monkeys tried to make fire from the flies.&nbsp;<br />\n" +
+                        "</p>\n" +
+                        "<div class=\"gap\"></div>\n" +
+                        "<p class=\"bodyText2\">The Owl told them again to stop their foolish act. ‘You are struggling so much, go take your shelter in a nearby cave. You can save yourself from the freezing cold! You won’t get fire!’&nbsp; <br />\n" +
+                        "</p>\n" +
+                        "<div class=\"gap\"></div>\n" +
+                        "<p class=\"bodyText2\">One monkey shouted at the owl and the owl left the place.&nbsp; <br />\n" +
+                        "</p>\n" +
+                        "<div class=\"gap\"></div>\n" +
+                        "<p class=\"bodyText2\">The monkeys were simply doing the foolish activity for several hours and it was almost midnight. They were very tired and realized that the words of the owl were correct and they were trying to blow a fly.&nbsp; <br />\n" +
+                        "</p>\n" +
+                        "<div class=\"gap\"></div>\n" +
+                        "<p class=\"bodyText2\">They sheltered themselves at the cave and escaped from the cold.&nbsp; <br />\n" +
+                        "</p>\n" +
+                        "<div class=\"gap\"></div>\n" +
+                        "<p class=\"bodyText2\"><strong>We may go wrong many times and should seek and accept the advice / suggestions provided by others.</strong> </p>"),
+                R.drawable.tstory20,
+                R.drawable.mstory20));//Story13 Ends
 
+        //Story14
+        stories.add(new Story(
+                "Thumbelina",
+                Html.fromHtml("<p>A long time ago and far, far away an old woman was sitting in her rocking chair thinking how happy she would be if she had a child. Then, she heard a knock at the door and opened it. A lady was standing there and she said, \"If you let me in, I will grant you a wish.\" The old woman let the woman in firstly because she felt pity, secondly because she knew what she'd wish for...a child. After she washed the lady up and fed her, she saw that she was really beautiful.</p><p>The lady slept soundly all night long and then right before she left, she said, \"Now, about your wish. What do you want?\"</p><p>The lady thought about most people's wishes to be richest in the world, most powerful person, the smartest, and the prettiest. But the old woman wished for <br/> something the lady could not believe. She said, \"I would like a child.\"</p><p>\"What did you say?\" she asked because she was astonished at what the old lady asked for. The old lady repeated what she said. \"I would like a child.\"</p><p>The lady then placed a tiny seed in the old woman's hand and gave her instructions. \" Plant this seed, water it carefully, watch over it, and give it your love. If you do all those things, then you will have a child.\"</p><p>So the old woman did all of those things the lady had told her to. In a week, there was a beautiful yellow flower in place of the seed. The next day, the flower bloomed. Inside the flower was a beautiful little girl who was the size of the woman's thumb so she a called her Thumbellina. She made her a little dress out of golden threads. Thumbellina slept in a walnut shell and brought the old woman joy and happiness.</p><p>But, one day when Thumbellina went down for her nap, a frog hopped through the open window and said, \"You will be a perfect bride for my son,\" and she took Thumbellina to a lily pad and hopped off to find her son.</p><p>Thumbellina cried and some little guppies heard her and chewed the roots off the lily pad to help her escape. Thumbellina's lily pad floated away. A few hours later, she finally stopped floating. During the summer, she ate berries and drank the dew off the leaves. But then winter came and she needed shelter. A kindly mouse let her stay with it, but it said, \"You'll have to marry my friend, Mole, because I cannot keep you for another winter.\"</p><p>The next day she went to see Mole. In one of tunnels, she found a sick bird and said, \"Poor thing, I will bury it.\" Then she found out that it was still alive and she cared for it until was ready to fly. It flew off. That fall she nearly had to marry Mole. But then she heard a familiar tweet and an idea popped up in the bird's head.</p><p>\"You can come down to the warm country,\" said the bird, so Thumbellina hopped on the bird's back and flew to the warm country. The people there who were like her renamed her Erin. She married a prince and she lived happily ever after.</p><p></p><center>The End</center>"),
+                R.drawable.tstory21,
+                R.drawable.mstory21));//Story14 Ends
+
+        //Story15
+        stories.add(new Story(
+                "The Princess and the Pea",
+                Html.fromHtml("<p>ONCE upon a time there was a prince who wanted to marry a princess; but she would have to be a real princess. He travelled all over the world to find one, but nowhere could he get what he wanted. There were princesses enough, but it was difficult to find out whether they were real ones. There was always something about them that was not as it should be. So he came home again and was sad, for he would have liked very much to have a real princess.</p><p>One evening a terrible storm came on; there was " +
+                        "thunder and lightning, and the rain poured down in torrents. Suddenly a knocking was heard at the city gate, and the old king went to open it.</p><p>It was a princess standing out there in front of the gate. But, good gracious! what a sight the rain and the wind had made her look. The water ran down from her hair and clothes; it ran down into the toes of her shoes and out again at the heels. And yet she said that she was a real princess.</p><p>Well, we'll soon find that out, thought the old queen. But she said nothing, went into the bed-room, took all the bedding off the bedstead, and laid a pea on the bottom; then she took twenty mattresses and laid them on the pea, and then twenty eider-down beds on top of the mattresses.</p><p>On this the princess had to lie all night. In the morning she was " +
+                        "asked how she had slept.</p><p>Oh, very badly! said she. I have scarcely closed my eyes all night. Heaven only knows what was in the bed, but I was lying on something hard, so that I am black and blue all over my body. Its horrible!</p><p>Now they knew that she was a real princess because she had felt the pea right through the twenty mattresses and the twenty eider-down beds.</p><p>Nobody but a real princess could be as sensitive as that.</p><p>So the prince took her for his wife, for now he knew " +
+                        "that he had a real princess; and the pea was put in the museum, where it may still be seen, if no one has stolen it.</p><p>There, that is a true story.</p>"),
+                R.drawable.tstory22,
+                R.drawable.mstory22));//Story15 Ends
+
+        //Story16
+        stories.add(new Story(
+                "The Three Little Pigs",
+                Html.fromHtml("<p>Once upon a time there were three little pigs. One pig built a house of straw while the second pig built his house with sticks. They built their houses very quickly and then sang and danced all day because they were lazy. The third little pig worked hard all day and built his house with bricks.</p><p>A big bad wolf saw the two little pigs while they danced and played and thought, “What juicy tender meals they will make!” He chased the two pigs and they ran and hid in their houses. The big bad wolf went to the first house and huffed and puffed and blew the house down in minutes. The frightened little pig ran to the second pig’s house that was made of sticks. The big bad wolf now came to this house and huffed and puffed and blew the house down in hardly any time. Now, the two little pigs were terrified and ran to the third pig’s house that was made of bricks.</p><p>The big bad wolf tried to huff and puff and blow the house down, but he could not. He kept trying for hours but the house was very strong and the little pigs were safe inside. He tried to enter through the chimney but the third little pig boiled a big pot of water and kept it below the chimney. The wolf fell into it and died.</p><p>The two little pigs now felt sorry for having been so lazy. They too built their houses with bricks and lived happily ever after.</p>"),
+                R.drawable.tstory23,
+                R.drawable.mstory23));//Story16 Ends
+
+        //Story17
+        stories.add(new Story(
+                "The bug and the flea",
+                Html.fromHtml("</div>Mandavisarpini was a white flea. She lived in the folds of the exquisite white silk sheet that covered the bed of a king in a certain country.\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "She fed on the king's blood without anybody noticing, and was happy to spend her days.\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "One day, a bug managed to enter the beautifully decorated bedroom of the king.\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "When the flea saw him, she warned, \"O Bug, what are you doing in the king's bedroom. Leave at once before you get caught!\"\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "The bug replied, \"Madam, even if I were a good-for-nothing bug, that is no way to treat a guest. One should welcome a guest with humble words, sweet behaviour and offer refreshments\"\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "The bug continued, \"I have fed myself with all types of blood, but never have I had the pleasure of the blood of a king. It must be very sweet, for the king eats the choicest of food. I would love to taste the king's blood, if you permit.\"\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "The flea was taken aback, \"O Bug, you have a nasty bite, like a sharp needle. Besides, I feed on the king's blood only when he is deep into his sleep. I can permit you to feed on the king's blood only if you promise to wait till he is asleep.\"\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "The bug agreed, \"I promise to wait till the king is asleep, and only after you have fed yourself, will I feed myself on his blood.\"\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "Soon after they decided on such terms, the king came to his bedroom and lay down to sleep.\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "The bug could not control himself, and decided to take a tiny bite of the king, without waiting. As the king was yet to fall asleep, he jumped at the sharp bite of the bug.\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "The king shouted at his servants, \"Hey, there is something in my bed that has bitten me. Look for it, as I have already been bitten.\"\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "On hearing this, the bug quickly hid himself in a corner of the bed, before the servants could start searching for him.\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "However, the servants scrutinized the entire bed, sheet by sheet, and found the flea between the folds. They killed her at once, and the king went to sleep without anymore worries.\n" +
+                        "<br>&nbsp;<br>The wise indeed say:<br><b><i>The false promises of friends as well as strangers have no value. You end up paying for it.</i></b>"),
+                R.drawable.tstory25,
+                R.drawable.mstory25));//Story17 Ends
+
+        //Story18
+        stories.add(new Story(
+                "The Musical Donkey",
+                Html.fromHtml("</div>There lived a washerman's donkey, whose name was Uddhata.\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "During the day, the donkey would carry the washerman's bags, but during the night, he was set free to eat the green grass in a nearby field.\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "However, instead of grazing in the nearby fields, he crept into nearby farms and ate vegetables of his choice. Before day-break it would come back to the washerman's house.\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "One night, the donkey met a jackal while wandering in a nearby farm. They became good friends, and started meeting every night.\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "The donkey, being fat, was able to break the fences of the farms. While he ate on the vegetable, the jackal would enter through the broken fence and ate the poultry on the farm. Before day-break, they would return to their respective home to meet again next night. This continued for many days.\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "One night, the donkey said to the jackal, \"Nephew, I feel like singing on nights like tonight, when the moon is full and beautiful. What <i>Raaga</i> (note combination) shall I sing?\"\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "The jackal cautioned, \"Uncle, we are here to steal. Thieves should keep as quiet as possible. I may add, your voice is not as pleasant as you think, and sounds like conch being blown! Your voice can be heard over a long distance. It will awaken the farmers who are sleeping, and you will have us caught.\"\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "The jackal assured, \"Please uncle, eat as much as you like, and forget about singing!\"\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "This annoyed the donkey and he said, \"Dear nephew, it is because you are a wild animal that you don't appreciate music. I shall sing a melodious <i>Raaga</i>. Wait till you hear it!\"\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "Observing that the donkey was determined to sing; the jackal did not risk staying there anymore. He said, \"Uncle, if you must sing, please wait till I go outside the fence and keep a watch on the farmers.\"\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "He ran outside the fence, and hid himself. Then, the donkey started to bray at the top of his voice.\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "When the farmers heard the donkey braying, they could see easily in the fullmoon-lit farm that the donkey was in their farm.\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "The angry farmers chased the donkey with sticks, and beat him so hard that he fell on the ground. Then, they tied a wooden mortar around his neck and let him go.\n" +
+                        "<br>&nbsp;<br>\n" +
+                        "When the donkey was returning through the broken fence, the jackal laughed, \"Musical uncle! That was a great <i>Raaga</i>! I see the farmers have rewarded you with this necklace!\"\n" +
+                        "<br>&nbsp;<br>The wise indeed say:<br><b><i>There is always a proper place and time for doing anything.</i></b>" +
+                        ""),
+                R.drawable.tstory26,
+                R.drawable.mstory26));//Story18 Ends
     }
 }

@@ -29,24 +29,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //Make sure that analytics tracking has started
-
         ((MyApplication) getApplication()).startTracking();
-
         tb = (Toolbar) findViewById(R.id.toolBar);
         setSupportActionBar(tb);
-
         storyArray = new StoryArray();
         str = storyArray.stories;
-        if(str.size() >= 5){
-            MainActivity.toatsMessage(this, "Stories Created");
-        }
-
         RecyclerView rv = (RecyclerView) findViewById(R.id.recyclerView);
         rv.setHasFixedSize(true);
         rv.setAdapter(new CustomAdapter(this, str));
         LinearLayoutManager llm = new LinearLayoutManager(this);
         llm.setOrientation(LinearLayoutManager.VERTICAL);
-
         rv.setLayoutManager(llm);
 
 
@@ -72,10 +64,6 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-
-    public static void toatsMessage(Context context, String message) {
-        Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
-    }
 
 
 }

@@ -12,6 +12,8 @@ import android.text.Html;
 import android.text.Spanned;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -25,6 +27,7 @@ import java.util.List;
 public class StoryActivity extends AppCompatActivity {
     private Story clickedStory;
     private AdView mAdView;
+    private Typeface tf_regular;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,12 +46,20 @@ public class StoryActivity extends AppCompatActivity {
 
         //Toolbar parallax effect support library
         Toolbar toolbar = (Toolbar) findViewById(R.id.storyActivityToolBar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
-        collapsingToolbarLayout.setTitle(clickedStory.title);
+            setSupportActionBar(toolbar);
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+            collapsingToolbarLayout.setTitle(clickedStory.title);
 
+
+
+        collapsingToolbarLayout.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                return true;
+            }
+        });
         //Toolbar parallax effect support library ends
 
         TextView storyDescription = (TextView) findViewById(R.id.storyTextView);
@@ -60,6 +71,10 @@ public class StoryActivity extends AppCompatActivity {
         iv.setImageResource(clickedStory.mainimageId);
 
         storyDescription.setText(clickedStory.storyDescription);
+
+        tf_regular = Typeface.createFromAsset(this.getAssets(), "fonts/bask.ttf");
+        storyDescription.setTypeface(tf_regular);
+
 
         //for ads display
         try {

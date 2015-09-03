@@ -8,8 +8,11 @@
         android:id="@+id/toolBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/toolBarBackground"
-        app:popupTheme="@style/customPopUpTheme">
+    android:background="@color/toolBarBackground"
+        android:popupTheme="@style/Theme.AppCompat.Light"
+        >
+
+
 
     </android.support.v7.widget.Toolbar>
 

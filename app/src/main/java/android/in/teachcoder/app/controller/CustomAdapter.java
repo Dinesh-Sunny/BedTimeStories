@@ -60,7 +60,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomView
         MainActivity.toatsMessage(context,"OnBind created");
         Story s = passedData.get(i);
         holder.title.setText(s.title);
-        holder.subTitle.setText(s.subTitle);
+        //holder.subTitle.setText(s.subTitle);
         holder.thumbNail.setImageResource(s.thumbimageId);
 
         setAnimation(holder.container, i);
@@ -86,7 +86,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomView
         CardView container;
 
         TextView title;
-        TextView subTitle;
+
         ImageView thumbNail;
         Typeface tf_regular;
 
@@ -94,12 +94,12 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomView
             super(itemView);
             itemView.setOnClickListener(this);
             this.title = (TextView) itemView.findViewById(R.id.storyTitle);
-            this.subTitle = (TextView) itemView.findViewById(R.id.storySubTitle);
+
             this.container = (CardView) itemView.findViewById(R.id.containerView);
             this.thumbNail = (ImageView) itemView.findViewById(R.id.thumbnail);
 
 
-            tf_regular = Typeface.createFromAsset(context.getAssets(), "fonts/Bertica-Regular.ttf");
+            tf_regular = Typeface.createFromAsset(context.getAssets(), "fonts/chik.ttf");
             this.title.setTypeface(tf_regular);
 
 

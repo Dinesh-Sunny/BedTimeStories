@@ -7,5 +7,6 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_about_us">AboutUs</string>
+    <string name="product_of">with love from</string>
     <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
 </resources>

@@ -8,15 +8,15 @@ import android.text.Spanned;
 public class Story {
 
     public String  title;
-    public String  subTitle;
+
     public Spanned  storyDescription;
     public int thumbimageId;
     public int mainimageId;
 
 
-    public Story(String title, String subTitle, Spanned storyDescription, int thumbimageId, int mainimageId){
+    public Story(String title, Spanned storyDescription, int thumbimageId, int mainimageId){
         this.title = title;
-        this.subTitle = subTitle;
+
         this.storyDescription=storyDescription;
         this.thumbimageId = thumbimageId;
         this.mainimageId = mainimageId;
