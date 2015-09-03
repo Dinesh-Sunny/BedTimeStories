@@ -4,6 +4,8 @@ package android.in.teachcoder.app.controller;
 import android.app.ActivityOptions;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
+import android.graphics.Typeface;
 import android.graphics.drawable.Animatable;
 import android.in.teachcoder.app.bedtimestories.MainActivity;
 import android.in.teachcoder.app.bedtimestories.R;
@@ -17,6 +19,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.List;
@@ -27,17 +30,21 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomView
     private List<Story> passedData;
     public Context context;
     public static int clickedViewNumber;
+    //Typeface font;
     // Allows to remember the last item shown on screen(Animation)
     private int lastPosition = -1;
 
     public CustomAdapter(Context context,List<Story> data){
         this.passedData = data;
         this.context = context;
+//        font = Typeface.createFromAsset(context.getAssets(),"fonts/Storyboo.TTF");
+        MainActivity.toatsMessage(context,"Adapter created");
     }
 
     @Override
     public CustomViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
 
+        MainActivity.toatsMessage(context,"Oncreate called");
 
         inflater = LayoutInflater.from(viewGroup.getContext());
         View v = inflater.inflate(R.layout.item_view, viewGroup, false);
@@ -45,13 +52,16 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomView
         CustomViewHolder holder = new CustomViewHolder(v);
 
         return holder;
+
     }
 
     @Override
     public void onBindViewHolder(CustomViewHolder holder, int i) {
+        MainActivity.toatsMessage(context,"OnBind created");
         Story s = passedData.get(i);
         holder.title.setText(s.title);
         holder.subTitle.setText(s.subTitle);
+        holder.thumbNail.setImageResource(s.thumbimageId);
 
         setAnimation(holder.container, i);
 
@@ -77,6 +87,8 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomView
 
         TextView title;
         TextView subTitle;
+        ImageView thumbNail;
+        Typeface tf_regular;
 
         public CustomViewHolder(View itemView) {
             super(itemView);
@@ -84,9 +96,11 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomView
             this.title = (TextView) itemView.findViewById(R.id.storyTitle);
             this.subTitle = (TextView) itemView.findViewById(R.id.storySubTitle);
             this.container = (CardView) itemView.findViewById(R.id.containerView);
+            this.thumbNail = (ImageView) itemView.findViewById(R.id.thumbnail);
 
 
-
+            tf_regular = Typeface.createFromAsset(context.getAssets(), "fonts/Bertica-Regular.ttf");
+            this.title.setTypeface(tf_regular);
 
 
         }

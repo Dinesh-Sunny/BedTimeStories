@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="gray">#E0E0E0</color>
-    <color name="toolBarBackground">#3F51B5</color>
-    <color name="statusBarColor">#303F9F</color>
+    <color name="toolBarBackground">#2196F3</color>
+    <color name="statusBarColor">#1976D2</color>
     <color name="textPrimaryColor">#fff</color>
-    <color name="cardViewTitleColor">#1A237E</color>
-    <color name="cardViewSubTitleColor">#5C6BC0</color>
+    <color name="cardViewTitleColor">#0D47A1</color>
+    <color name="cardViewSubTitleColor">#1976D2</color>
     <color name="colorControlHighlight">#B6B6B6</color>
     <color name="cardBackgroundColor">#fff</color>
 

@@ -1,9 +1,27 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="AppTheme.Base">
         <!-- Customize your theme here. -->
+        <item name="android:textColor">#000</item>
+
 
     </style>
+
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/toolBarBackground</item>
+
+        <item name="colorPrimaryDark">@color/statusBarColor</item>
+        <item name="android:windowBackground">@color/gray</item>
+        <item name="android:textColorPrimary">@color/textPrimaryColor</item>
+        <item name="android:textColorSecondary">@color/textPrimaryColor</item>
+
+
+
+
+    </style>
+
 
 </resources>
